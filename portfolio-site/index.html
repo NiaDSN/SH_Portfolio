@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seunghyeon - Design Thinker</title>
+    <!-- 인라인 스타일로 색상 변수 정의 (Safari 호환성) -->
+    <style>
+        :root {
+            /* 브랜드 컬러 */
+            --color-brand-primary: #D4E1FF;
+            --color-brand-secondary: #D4E1FF;
+            
+            /* 배경 컬러 */
+            --color-bg-primary: #2F2F50;
+            
+            /* 그라디언트 컬러 */
+            --color-gradient-primary-start: #6E72FC;
+            --color-gradient-primary-end: #FF68B3;
+            
+            /* 텍스트 컬러 */
+            --color-text-primary: #FFFFFF;
+            --color-text-secondary: #D4E1FF;
+        }
+    </style>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.6/lottie.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="hello">Hello</h1>
+        </header>
+        <main>
+            <div class="content-row">
+                <div class="butterfly-wrapper left">
+                    <div class="lottie-container" id="lottie-blue"></div>
+                </div>
+                <div class="text-container">
+                    <span class="i-am">I am</span>
+                    <h2 class="name">Seunghyeon</h2>
+                </div>
+                <div class="butterfly-wrapper right">
+                    <div class="lottie-container" id="lottie-pink"></div>
+                </div>
+            </div>
+            <p class="title">a design thinker.</p>
+        </main>
+    </div>
+
+    <script src="js/animation.js"></script>
+</body>
+</html> 
